@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.github.wq923.camera.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+    <Button
+        android:text="Android 使用系统相机（系统自带“相机”App）"
+        android:textSize="24sp"
+        android:id="@+id/id_sys_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="Android 自定义相机"
+        android:textSize="24sp"
+        android:id="@+id/id_custom_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
